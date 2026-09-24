@@ -44,13 +44,13 @@ is wired up. No gameplay yet — just the engine scaffold.
 
 ## files
 Ninja Hattori/
-├── index.html canvas shell
-├── style.css centers the game, black letterbox
-└── js/
-├── globals.js shared variables
-├── math.js angle and distance helpers
-├── input.js key to action bindings
-├── keyboard.js tracks key presses, clears on blur
-└── util/
-├── loop.js frame ticker with delta clamp
-└── resizer.js keeps canvas sharp on window resize
+├── index.html          # canvas shell
+├── style.css           # centers the game, black letterbox
+├── js/
+│   ├── globals.js      # shared variables
+│   ├── math.js         # angle and distance helpers
+│   ├── input.js        # key to action bindings
+│   ├── keyboard.js     # tracks key presses, clears on blur
+│   └── util/
+│       ├── loop.js     # frame ticker with delta clamp
+│       └── resizer.js  # keeps canvas sharp on window resize
