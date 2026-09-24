@@ -1,12 +1,6 @@
 # Ninja Hattori
 
-<p align="center">
-  <a href="../../stargazers"><img src="https://img.shields.io/badge/Stars-5.8k-007ec6?style=flat&logo=github" alt="Stars"></a>
-  <a href="../../network/members"><img src="https://img.shields.io/badge/Forks-1.1k-007ec6?style=flat&logo=github" alt="Forks"></a>
-  <a href="../../releases/tag/v0.1.0"><img src="https://img.shields.io/badge/tag-v0.1.0--scaffold-007ec6?style=flat" alt="Version"></a>
-  <a href="#"><img src="https://img.shields.io/badge/platform-HTML5%20Canvas-2ecc71?style=flat" alt="Platform"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat" alt="License"></a>
-</p>
+
 
 Ninja Hattori: Infiltrate the Tower is a fast-paced retro stealth game where you climb a massive 30-floor skyscraper like a true ninja! Leap across walls, duck through shadows, and dodge laser-sharp security cameras and patrol guards. One wrong move trips the alarm and sends you straight back down, so keep your cool, time your jumps, and sneak all the way to the roof!
 
