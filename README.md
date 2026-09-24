@@ -1,2 +1,62 @@
-# Ninja-hattori-
-Ninja Hattori: Infiltrate the Tower is a stealth platformer centered on scaling a fortified 30-story skyscraper. Progression requires navigating vertical shafts through wall jumps and precise timing while evading security cameras and guards. Complete stealth is essential, as tripping an alarm results in an immediate floor reset.
+# Ninja Hattori
+
+<p align="center">
+  <a href="../../stargazers"><img src="https://img.shields.io/badge/Stars-5.8k-007ec6?style=flat&logo=github" alt="Stars"></a>
+  <a href="../../network/members"><img src="https://img.shields.io/badge/Forks-1.1k-007ec6?style=flat&logo=github" alt="Forks"></a>
+  <a href="../../releases/tag/v0.1.0"><img src="https://img.shields.io/badge/tag-v0.1.0--scaffold-007ec6?style=flat" alt="Version"></a>
+  <a href="#"><img src="https://img.shields.io/badge/platform-HTML5%20Canvas-2ecc71?style=flat" alt="Platform"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat" alt="License"></a>
+</p>
+
+Ninja Hattori: Infiltrate the Tower is a fast-paced retro stealth game where you climb a massive 30-floor skyscraper like a true ninja! Leap across walls, duck through shadows, and dodge laser-sharp security cameras and patrol guards. One wrong move trips the alarm and sends you straight back down, so keep your cool, time your jumps, and sneak all the way to the roof!
+
+---
+
+## current status
+
+Session 01 is done. The canvas is centered, the game loop runs with
+delta capped so laggy frames don't break physics, and keyboard input
+is wired up. No gameplay yet — just the engine scaffold.
+
+---
+
+## controls
+
+- move: `A` / `D` or arrow keys (also `Q` for AZERTY)
+- jump: `Space` or `W` / `Up`
+- gamepad: left stick or D-pad works
+
+---
+
+## what works
+
+- canvas centers itself and resizes to fit the window
+- game loop runs every frame, delta capped at 50ms so tab switches
+  and laggy frames don't break physics
+- key presses are tracked and cleared when the window loses focus
+- jump, left, right mapped to both keyboard and gamepad
+
+---
+
+## what is not done yet
+
+- no player character
+- no enemies or guards
+- no levels
+- no audio
+- no menus
+
+---
+
+## files
+Ninja Hattori/
+├── index.html canvas shell
+├── style.css centers the game, black letterbox
+└── js/
+├── globals.js shared variables
+├── math.js angle and distance helpers
+├── input.js key to action bindings
+├── keyboard.js tracks key presses, clears on blur
+└── util/
+├── loop.js frame ticker with delta clamp
+└── resizer.js keeps canvas sharp on window resize
